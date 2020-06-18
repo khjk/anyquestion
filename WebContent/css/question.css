@@ -1,0 +1,138 @@
+@media screen and (min-width: 769px) { 
+  #mobile-header { display: none; } 
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    /* background-color: #edefef; */
+    background-color: #002E66;
+    line-height: 32px; 
+    /* letter-spacing: 0px;  */
+    /* word-spacing: -5px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
+  }
+  
+  .wrap {
+    left: 0;
+    perspective: 0;
+    perspective-origin: 50% 10vw;
+    position: absolute;
+    top: 0;
+    width: 20vw;
+    z-index: 1;
+  }
+  .wrap .sidebar {
+    height: 100vh;
+    /* position: relative;
+    transform-origin: 50% 50% 50%;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out; */
+    width: 25vw;
+  }
+  .wrap .sidebar .side {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: #fff;
+    height: 100vh;
+    padding: 2em;
+    position: absolute;
+    width: 25vw;
+  }
+  .wrap .sidebar .front {
+    /* background-color: #002E66; */
+    /* 이미지 */
+    background: url(../img/main7_1920.jpg) no-repeat;
+    transform: translateZ(10vw);
+  }
+
+  .wrap .sidebar .side-content {
+      position: relative;
+      z-index: 2;
+      padding-top: 2em;
+  }
+  
+    .side-content a{
+	word-wrap: break-word;
+	}
+
+  .wrap .sidebar .side-header {
+    position: relative;
+    z-index: 2;
+  }
+
+  .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #002E66;
+    opacity: 0.7;
+  }
+  
+  main {
+    margin-left: 25vw;
+    /* padding: 2.5em; */
+    padding-top: 4em;
+  }
+
+  main .card-block{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    background-color: #edefef;
+    margin: 1em 0;
+    padding: 1em;
+  }
+
+  .active-like i{
+    color: #cd9557;
+    }
+
+  .unactive-like i {
+        color: #fff;
+    }
+
+    main i {
+    font-size: 19px;
+}
+
+.question-list{
+	position:absolute;
+/* 	botton: 0; */
+  	padding: 0 2.5em; 
+  	overflow-y:scroll;
+  	overflow-x:hidden;
+  	height:calc(100% - 270px);
+  	width: 75vw;
+	/* height: 550px; */
+  /* height: 78%; */
+}
+
+
+.message_write {
+  background: rgb(0, 25, 56) none repeat scroll 0 0;
+  position: absolute; 
+  bottom: 0;
+  /* float: left; */
+  padding: 30px 50px;
+  margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:75vw;
+}
+
+.message_write textarea.form-control {
+font-size: 1.3rem;
+  height: 90px;
+  padding: 10px;
+}
+
+.message_write button {
+  margin-top: 10px;
+  background:#cd9557;
+  color:#fff;
+}

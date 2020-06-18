@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-size: 16px;
+     background-color: #002E66;
+    line-height: 32px; 
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+@media screen and (max-width: 768px) { 
+    .overlay { display: none; } 
+    .wrap { display: none;}
+}
+
+  main {
+    /* margin-left: 25vw; */
+    /* padding: 2.5em; */
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    /* padding-top: 4em; */
+  }
+
+  .mobile-header-content{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 30;
+    font-size: 1rem;
+  }
+
+  #mobile-header{
+    height: 76px;
+    background: url(../img/main7_1920.jpg) no-repeat;
+  }
+
+  
+  .header-overlay {
+    box-sizing: content-box;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 76px;
+    /* height: inherit; */
+    width: 100%;
+    background-color: #002E66;
+    opacity: 0.7;
+  }
+
+  main .card-block{
+    font-size: 1rem;
+    /* font-weight: 600; */
+    color: rgb(36, 36, 36);
+    background-color: #edefef;
+    margin: 1rem 0;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .active-like i{
+    color: #cd9557;
+    font-size: 1.2rem;
+    }
+
+.card-body{
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+.question-list{
+  width: 100%;
+  height:calc(100% - 230px);
+  
+}
+
+.message_write {
+  background: rgb(0, 25, 56) none repeat scroll 0 0;
+  /* float: left; */
+  padding: 15px;
+  margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:100%;
+}
+
+.message_write textarea.form-control {
+  height: 70px;
+  padding: 10px;
+}
+
+.message_write button {
+  margin-top: 10px;
+  background:#cd9557;
+  color:#fff;
+}

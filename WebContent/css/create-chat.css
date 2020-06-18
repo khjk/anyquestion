@@ -1,0 +1,109 @@
+body 
+{ -webkit-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility; 
+    font-family: 'Noto Sans KR', sans-serif;
+   /*  font-family: 'Roboto Mono', monospace; */
+    letter-spacing: 0px; 
+    font-size: 17px; 
+    color: rgb(36, 36, 36);
+    /* background-color: #002E66; */
+    /* color: #8d8f90;  */
+    font-weight: 400; 
+    line-height: 32px; 
+    background-color: #edefef; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #25292a; margin: 0px 0px 10px 0px;  font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */ font-weight: 700; letter-spacing: -1px; line-height: 1; }
+
+h1 { font-size: 34px; }
+h2 { font-size: 28px; line-height: 38px; }
+h3 { font-size: 22px; line-height: 32px; }
+h4 { font-size: 20px; }
+h5 { font-size: 17px; }
+h6 { font-size: 12px; }
+
+p { margin: 0 0 20px; line-height: 1.7; }
+
+p:last-child { margin: 0px; }
+
+
+a { text-decoration: none; color: #8d8f90; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+a:focus, a:hover { text-decoration: none; color: #f85759; }
+
+.page-header { 
+    background: url(../img/main6_1920.jpg)no-repeat;
+    /* background: url(../img/main7_1920.jpg)no-repeat; */
+     position: relative;
+     background-size: cover;
+    }
+.page-caption { padding-top: 20px; 
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 3;
+    }
+.page-title { font-size: 46px; line-height: 1; color: #fff; font-weight: 600; text-align: center; }
+
+.card-section { 
+    position: relative; 
+    bottom: 60px; 
+}
+
+.card-block { 
+    /* padding: 80px;  */
+    margin: 0 auto;
+}
+.section-title { margin-bottom: 60px; }
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #002E66;
+    opacity: 0.9;
+  }
+
+button{
+    background:#cd9557;
+    color:#fff;
+    padding:100px;
+    /* font-size:20px;
+    font-weight: 550;
+    width:330px;
+    margin:20px auto; */
+    /* display:block; */
+    cursor:pointer;
+  }
+button:active{
+    background:#ba7c37;
+  }
+
+  .table-wrapper {
+    z-index: 1;
+    position: absolute;
+    /* width: 1000px; */
+    /* width: auto; */
+    height: 500px;
+    /* margin: 30px auto; */
+    background: #fff;
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+form {
+    padding: 40px 80px;
+}
+
+label {
+    /* word-spacing: -5px;  */
+}
+   
+
+.col-form-label-lg {
+	font-weight: 800;
+    font-size: 1.7rem;
+}
+
