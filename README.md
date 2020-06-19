@@ -1,6 +1,6 @@
 # anyquestion
 
-serverless - using naver cloud platform
+serverless - using naver cloud platform (Cent OS)
 
 using jsp,servlet,scss,bootstrap
 
