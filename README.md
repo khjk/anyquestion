@@ -2,7 +2,9 @@
 
 serverless - using naver cloud platform (Cent OS)
 
-using jsp,servlet,scss,bootstrap
+jsp,servlet
+scss,bootstrap
+Oracle DB, Kakao Developer API
 
 mvc2 pattern
 
