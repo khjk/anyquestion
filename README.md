@@ -23,5 +23,5 @@ Skill : Servlet , Jsp, AJAX, SCSS, BootStrap, JSTL, KaKao developer API
 
 5. 회원 이용시, 본인이 생성했던 채팅방을 확인가능하며 관리가능합니다.
 
-6.채팅방을 카카오톡을 통해 공유할 수 있습니다.
+6. 카카오톡을 통해 해당 채팅방을 공유할 수 있습니다.
 
